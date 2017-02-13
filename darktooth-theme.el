@@ -163,7 +163,7 @@
   (font-lock-string-face                             (:foreground darktooth-darkslategray4))
   (font-lock-variable-name-face                      (:foreground darktooth-aquamarine4))
   (font-lock-type-face                               (:foreground darktooth-lightblue4))
-  (font-lock-warning-face                            (:foreground darktooth-neutral_red :bold t))
+  (font-lock-warning-face                            (:foreground darktooth-neutral_red :background darktooth-dark_red :bold t))
 
   ;; MODE SUPPORT: elixir-mode
   (elixir-atom-face                          (:foreground darktooth-lightblue4))
@@ -583,9 +583,12 @@
   (git-gutter-fr+-modified                   (:inherit 'git-gutter+-modified))
 
   ;; MODE SUPPORT: magit
-  (magit-branch                              (:foreground darktooth-turquoise4 :background nil))
-  (magit-branch-local                        (:foreground darktooth-turquoise4 :background nil))
-  (magit-branch-remote                       (:foreground darktooth-aquamarine4 :background nil))
+  (magit-branch                              (:foreground darktooth-turquoise4 :background nil :box 1))
+  (magit-branch-current                      (:foreground darktooth-bright_cyan :box 1))
+  (magit-branch-local                        (:foreground darktooth-bright_green :background nil :box 1))
+  (magit-branch-remote                       (:foreground darktooth-bright_red :background nil :box 1))
+  (magit-tag                                 (:foreground darktooth-faded_purple :box 1))
+
   (magit-cherry-equivalent                   (:foreground darktooth-neutral_orange))
   (magit-cherry-unmatched                    (:foreground darktooth-neutral_purple))
   (magit-diff-context                        (:foreground darktooth-dark3 :background nil))
@@ -640,7 +643,6 @@
   (magit-signature-good                      (:foreground darktooth-bright_green :weight 'bold))
   (magit-signature-none                      (:foreground darktooth-faded_red))
   (magit-signature-untrusted                 (:foreground darktooth-bright_purple :weight 'bold))
-  (magit-tag                                 (:foreground darktooth-darkslategray4))
   (magit-whitespace-warning-face             (:background darktooth-faded_red))
   (magit-bisect-bad                          (:foreground darktooth-faded_red))
   (magit-bisect-good                         (:foreground darktooth-neutral_green))
