@@ -666,6 +666,10 @@
   (magit-head                                (:inherit 'magit-branch-local))
   (magit-popup-disabled-argument             (:foreground darktooth-light4))
 
+  ;; MODE SUPPORT: eyebrowse
+  (eyebrowse-mode-line-active               (:foreground darktooth-bright_red))
+  (eyebrowse-mode-line-inactive             (:foreground darktooth-muted_aqua))
+
   ;; MODE SUPPORT: term
   (term-color-black                          (:foreground darktooth-dark1))
   (term-color-blue                           (:foreground darktooth-neutral_blue))
