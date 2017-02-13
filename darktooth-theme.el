@@ -160,7 +160,7 @@
   (font-lock-comment-face                            (:slant 'italic :foreground darktooth-dark4))
   (font-lock-comment-delimiter-face                  (:slant 'italic :foreground darktooth-dark4))
 
-  (font-lock-function-name-face                      (:foreground darktooth-light4))
+  (font-lock-function-name-face                      (:foreground darktooth-faded_aqua))
   (font-lock-keyword-face                            (:foreground darktooth-sienna))
   (font-lock-string-face                             (:foreground darktooth-darkslategray4))
   (font-lock-variable-name-face                      (:foreground darktooth-aquamarine4))
