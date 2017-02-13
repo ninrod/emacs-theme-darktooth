@@ -162,7 +162,7 @@
 
   (font-lock-function-name-face                      (:foreground darktooth-faded_aqua))
   (font-lock-keyword-face                            (:foreground darktooth-sienna))
-  (font-lock-string-face                             (:foreground darktooth-darkslategray4))
+  (font-lock-string-face                             (:foreground darktooth-neutral_green))
   (font-lock-variable-name-face                      (:foreground darktooth-aquamarine4))
   (font-lock-type-face                               (:foreground darktooth-lightblue4))
   (font-lock-warning-face                            (:foreground darktooth-neutral_red :background darktooth-dark_red :bold t))
@@ -304,7 +304,8 @@
 
   (js2-warning                               (:underline (:color darktooth-bright_yellow :style 'wave)))
   (js2-error                                 (:underline (:color darktooth-bright_red :style 'wave)))
-  (js2-external-variable                     (:underline (:color darktooth-bright_aqua :style 'wave)))
+  (js2-external-variable                     (:foreground darktooth-bright_yellow))
+  (js2-object-property                       (:foreground darktooth-muted_purple))
   (js2-jsdoc-tag                             (:foreground darktooth-medium :background nil))
   (js2-jsdoc-type                            (:foreground darktooth-light4 :background nil))
   (js2-jsdoc-value                           (:foreground darktooth-light3 :background nil))
@@ -673,8 +674,8 @@
   (eyebrowse-mode-line-inactive             (:foreground darktooth-muted_aqua))
 
    ;; web-mode
-  (nxml-element-local-name                 (:foreground darktooth-faded_aqua))
-  (web-mode-html-tag-face               (:foreground darktooth-faded_aqua))
+  (nxml-element-local-name                 (:foreground darktooth-bright_purple))
+  (web-mode-html-tag-face               (:foreground darktooth-bright_purple))
   (web-mode-symbol-face                 (:foreground darktooth-faded_red))
 
   ;; MODE SUPPORT: term
