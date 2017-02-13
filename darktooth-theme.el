@@ -157,7 +157,7 @@
   ;; Built-in syntax
   (font-lock-builtin-face                            (:foreground darktooth-bright_orange))
   (font-lock-constant-face                           (:foreground darktooth-burlywood4))
-  (font-lock-comment-face                            (:foreground darktooth-dark4))
+  (font-lock-comment-face                            (:slant 'italic :foreground darktooth-dark4))
   (font-lock-function-name-face                      (:foreground darktooth-light4))
   (font-lock-keyword-face                            (:foreground darktooth-sienna))
   (font-lock-string-face                             (:foreground darktooth-darkslategray4))
@@ -735,7 +735,7 @@
    `((t
       (:foreground ,darktooth-dark_orange
                    :background ,darktooth-dark0_hard
-                   :height 120
+                   ;; :height 120
                    :inverse-video nil
                    :box (:line-width 6 :color ,darktooth-dark0_hard :style nil))))
    "darktooth modeline inactive three")
@@ -744,7 +744,7 @@
    `((t
       (:foreground ,darktooth-muted_orange
                    :background ,darktooth-dark1
-                   :height 120
+                   ;; :height 120
                    :inverse-video nil
                    :box (:line-width 6 :color ,darktooth-dark1 :style nil))))
    "darktooth modeline active three")
@@ -817,13 +817,13 @@
   (set-face-attribute 'mode-line nil
                       :foreground (face-attribute 'darktooth-modeline-three-active :foreground)
                       :background (face-attribute 'darktooth-modeline-three-active :background)
-                      :height 120
+                      ;; :height 120
                       :inverse-video nil
                       :box `(:line-width 6 :color ,(face-attribute 'darktooth-modeline-three-active :background) :style nil))
   (set-face-attribute 'mode-line-inactive nil
                       :foreground (face-attribute 'darktooth-modeline-three-inactive :foreground)
                       :background (face-attribute 'darktooth-modeline-three-inactive :background)
-                      :height 120
+                      ;; :height 120
                       :inverse-video nil
                       :box `(:line-width 6 :color ,(face-attribute 'darktooth-modeline-three-inactive :background) :style nil)))
 
