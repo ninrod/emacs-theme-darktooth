@@ -158,6 +158,8 @@
   (font-lock-builtin-face                            (:foreground darktooth-bright_orange))
   (font-lock-constant-face                           (:foreground darktooth-burlywood4))
   (font-lock-comment-face                            (:slant 'italic :foreground darktooth-dark4))
+  (font-lock-comment-delimiter-face                  (:slant 'italic :foreground darktooth-dark4))
+
   (font-lock-function-name-face                      (:foreground darktooth-light4))
   (font-lock-keyword-face                            (:foreground darktooth-sienna))
   (font-lock-string-face                             (:foreground darktooth-darkslategray4))
@@ -669,6 +671,11 @@
   ;; MODE SUPPORT: eyebrowse
   (eyebrowse-mode-line-active               (:foreground darktooth-bright_red))
   (eyebrowse-mode-line-inactive             (:foreground darktooth-muted_aqua))
+
+   ;; web-mode
+  (nxml-element-local-name                 (:foreground darktooth-faded_aqua))
+  (web-mode-html-tag-face               (:foreground darktooth-faded_aqua))
+  (web-mode-symbol-face                 (:foreground darktooth-faded_red))
 
   ;; MODE SUPPORT: term
   (term-color-black                          (:foreground darktooth-dark1))
